@@ -7,6 +7,8 @@ depends = []
 "data" = "~/.local"
 
 [default.variables]
+"name" = "Jeff Windsor"
+"email" = "jeff.windsor@gmail.com"
 
 [alacritty.files]
 "aliases" = "~/.config/aliases/alacritty"
@@ -31,7 +33,7 @@ depends = []
 [cj.files]
 "aliases" = "~/.config/aliases/cj"
 "envs" = "~/.config/envs/cj"
-"gitconfig" = "~/.gitconfig"
+"gitconfig" = "~/.config/git/config"
 "scripts" = "~/.local/scripts/cj"
 
 [dnf.files]
@@ -54,8 +56,10 @@ depends = []
 [git.files]
 "aliases" = "~/.config/aliases/git"
 "bash-autoloads" = "~/.config/bash/autoloads/git"
+"config" = "~/.config/git/config"
 "envs" = "~/.config/envs/git"
 "fish-autoloads" = "~/.config/fish/autoloads/git"
+"ignore" = "~/.config/git/ignore"
 "zsh-autoloads" = "~/.config/zsh/autoloads/git"
 
 [haskell.files]
@@ -72,8 +76,6 @@ depends = []
 "alacrity-base-config.yml" = "~/.config/alacrity/os.yml"
 "aliases" = "~/.config/aliases/linux"
 "envs" = "~/.config/envs/linux"
-"gitignore" = "~/.config/git/ignore"
-"gitconfig" = "~/.config/git/config"
 
 [nvim.files]
 "aliases" = "~/.config/aliases/nvim"

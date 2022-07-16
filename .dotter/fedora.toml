@@ -1,0 +1,23 @@
+includes = []
+packages = [
+            "astronvim",
+            "bat",
+            "default",
+            "exa",
+            "fd",
+            "fzf",
+            "fish",
+            "git",
+            "hledger",
+            "linux",
+            "node",
+            "ripgrep",
+            "rust",
+            "starship",
+            "topgrade"]
+
+[files]
+
+[variables]
+"name" = "Windsor, Jeff"
+"email" = "jwindsor@cj.com"

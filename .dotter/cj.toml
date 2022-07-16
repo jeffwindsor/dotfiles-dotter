@@ -1,0 +1,28 @@
+includes = []
+packages = ["alacritty",
+            "alfred",
+            "astronvim",
+            "bat",
+            "cj",
+            "default",
+            "exa",
+            "fd",
+            "fzf",
+            "fish",
+            "git",
+            "intellij-idea",
+            "macos",
+            "node",
+            "ripgrep",
+            "rust",
+            "sdkman",
+            "starship",
+            "topgrade",
+            "vscode",
+            "zsh"]
+
+[files]
+
+[variables]
+"name" = "Windsor, Jeff"
+"email" = "jwindsor@cj.com"
