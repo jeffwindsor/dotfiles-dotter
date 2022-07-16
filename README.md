@@ -12,42 +12,8 @@ This repository uses [github](www.github.com) to keep a central copy of my confi
 
 ## Local dotfile manangement strategy
 
-Given the configuration files are centrally located and not in expected locations in home directory, we need a tool and a strategy to make them useable on a machine.  Currently I utilize [gnu-stow](https://www.gnu.org/software/stow/) as a tool along with three script files for automation.  Gnu stow has a set of capabilities that leads to a strategy of composing the linkage of configuraiton files, and thus allows for more flexibility.
-
-### How the strategy works
-
-The dotfiles are packaged into "configuration" folders, such as the below neovim configuration.
-
-<pre>
-~/.dotfiles/nvim/.config
-├── nvim
-│  ├── autosave.vim
-│  ├── fzf.vim
-│  ├── init.vim
-│  ├── nerd-tree.vim
-│  └── vim-sneak.vim
-└── zsh
-   └── nvim
-</pre>
-
-When a configuration folder is "added" to the current system, stow will link the highest file/folder appropriate based on current files in the target directory.  
-
-<pre>
-~/.config
-├── nvim -> ../.dotfiles/nvim/.config/nvim
-└── zsh
-   └── nvim -> ../../.dotfiles/nvim/.config/zsh/nvim
-</pre>
-
-### Automation scripts
-
-There are three script files that help automate linking the dotfile configuration folder content to the users home directory:
-
-* `./add {dotfile-configuration-folder}` - links a single configuration folder to the system
-* `./remove {dotfile-configuration-folder}` - removes a single configuration folder from the system
-* `./config {stows-file}` - removes and re-adds a list of configuration folders (listed in the stows-file), automating a complete machine configuration
-    
-Most of the time I use add or remove to test configurations.  Then use the stows files to setup a new machine or refresh a specific machine.
+Given the configuration files are centrally located and not in expected locations in home directory, we need a tool and a strategy to make them useable on a machine.  
+This repo uses [Dotter](https://github.com/SuperCuber/dotter) a rust based config driven dotfile manager.
 
 ## You have options to do this differently
 
@@ -60,3 +26,4 @@ Multiple strategies have been devised to backup, share, and keep change history 
 * [The best way to store your dotfiles: A bare Git repository ](https://www.atlassian.com/git/tutorials/dotfiles)
 * [Managing Your Dotfiles](https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/)
 * [Awesome Dot files](https://github.com/webpro/awesome-dotfiles)
+* Symantic Link Manager like [GNU-Stow](https://www.gnu.org/software/stow/)
