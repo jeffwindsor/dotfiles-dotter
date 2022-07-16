@@ -1,0 +1,22 @@
+
+#   
+#   /$$$$$$  /$$       /$$             /$$
+#  /$$__  $$| $$      | $$            | $$
+# | $$  \__/| $$   /$$| $$$$$$$   /$$$$$$$
+# |  $$$$$$ | $$  /$$/| $$__  $$ /$$__  $$
+#  \____  $$| $$$$$$/ | $$  \ $$| $$  | $$
+#  /$$  \ $$| $$_  $$ | $$  | $$| $$  | $$
+# |  $$$$$$/| $$ \  $$| $$  | $$|  $$$$$$$
+#  \______/ |__/  \__/|__/  |__/ \_______/
+
+######################################################################################
+# applications
+#   keys:
+#       0x2A = Backslash
+######################################################################################
+cmd + ctrl - f              : open -a  'Finder'                 # launch files
+cmd + ctrl - i              : open -na 'Intellij IDEA'          # launch ide
+cmd + ctrl - d              : open -na 'DBVisualizer'
+cmd + ctrl - v              : open -na 'VSCodium.app' --args --extensions-dir $HOME/.vscode-oss/extensions
+cmd + ctrl - t              : open -na 'alacritty'              # launch terminal
+cmd + ctrl - b              : open -na 'firefox'                # launch broser 

@@ -1,0 +1,128 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+"data" = "~/.local"
+
+[default.variables]
+
+[alacritty.files]
+"aliases" = "~/.config/aliases/alacritty"
+"scripts" = "~/.local/scripts/alacritty"
+"themes" = "~/.local/themes/alacritty"
+
+[alfred.files]
+"themes" = "~/.local/themes/alfred"
+
+[astrovim.files]
+"aliases" = "~/.config/aliases/astrovim"
+"envs" = "~/.config/envs/astrovim"
+"user.lua" = "~/.config/nvim/lua/user/init.lua"
+
+[bash.files]
+"bash-completion" = "~/.config/bash/autoloads/bash-completion"
+"rc" = "~/.bashrc"
+
+[bat.files]
+"aliases" = "~/.config/aliases/bat"
+
+[cj.files]
+"aliases" = "~/.config/aliases/cj"
+"envs" = "~/.config/envs/cj"
+"gitconfig" = "~/.gitconfig"
+"scripts" = "~/.local/scripts/cj"
+
+[dnf.files]
+"aliases" = "~/.config/aliases/dnf"
+
+[exa.files]
+"aliases" = "~/.config/aliases/exa"
+
+[fd.files]
+"ignore" = "~/.config/fdignore"
+
+[fish.files]
+"config" = "~/.config/fish/config.fish"
+
+[fzf.files]
+"bash-autoloads" = "~/.config/bash/autoloads/fzf"
+"envs" = "~/.config/envs/fzf"
+"zsh-autoloads" = "~/.config/zsh/autoloads/fzf"
+
+[git.files]
+"aliases" = "~/.config/aliases/git"
+"bash-autoloads" = "~/.config/bash/autoloads/git"
+"envs" = "~/.config/envs/git"
+"fish-autoloads" = "~/.config/fish/autoloads/git"
+"zsh-autoloads" = "~/.config/zsh/autoloads/git"
+
+[haskell.files]
+"aliases" = "~/.config/aliases/haskell"
+
+[hledger.files]
+"fish-autoloads" = "~/.config/fish/autoloads/hledger"
+"zsh-autoloads" = "~/.config/zsh/autoloads/hledger"
+
+[intellij-idea.files]
+"vimrc" = "~/.config/.ideavimrc"
+
+[linux.files]
+"alacrity-base-config.yml" = "~/.config/alacrity/os.yml"
+"aliases" = "~/.config/aliases/linux"
+"envs" = "~/.config/envs/linux"
+"gitignore" = "~/.config/git/ignore"
+"gitconfig" = "~/.config/git/config"
+
+[nvim.files]
+"aliases" = "~/.config/aliases/nvim"
+"envs" = "~/.config/envs/nvim"
+"nvim-scripts" = "~/.config/nvim"
+
+[macos.files]
+"alacrity-base-config.yml" = "~/.config/alacrity/os.yml"
+"aliases" = "~/.config/aliases/macos"
+"envs" = "~/.config/envs/macos"
+"sshconfig" = "~/.ssh/config"
+"skhdrc" = "~/.config/skhd/skhdrc"
+
+[nnn.files]
+"envs" = "~/.config/envs/nnn"
+
+[node.files]
+"envs" = "~/.config/envs/node"
+"npmrc" = "~/.config/npm/npmrc"
+"zsh-autoloads" = "~/.config/zsh/autoloads/node"
+
+[ripgrep.files]
+"aliases" = "~/.config/aliases/ripgrep"
+
+[rust.files]
+"aliases" = "~/.config/aliases/rust"
+"zsh-autoloads" = "~/.config/zsh/autoloads/rust"
+
+[sdkman.files]
+"envs" = "~/.config/envs/sdkman"
+"zsh-autoloads" = "~/.config/zsh/autoloads/sdkman"
+
+[starship.files]
+"toml" = "~/.config/starship.toml"
+"bash-autoloads" = "~/.config/bash/autoloads/starship"
+"fish-autoloads" = "~/.config/fish/autoloads/starship"
+"zsh-autoloads" = "~/.config/zsh/autoloads/starship"
+
+[toolbox.files]
+"aliases" = "~/.config/aliases/toolbox"
+
+[starship.files]
+"aliases" = "~/.config/aliases/topgrade"
+"toml" = "~/.config/topgrade.toml"
+
+[youtube-dl.files]
+"aliases" = "~/.config/aliases/youtube-dl"
+"config" = "~/.config/youtube-dl/config"
+
+[zsh.files]
+"zshenv" = "~/.zshenv"
+"zshrc" = "~/.config/zsh/.zshrc"

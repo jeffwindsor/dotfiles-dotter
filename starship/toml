@@ -1,0 +1,37 @@
+format = """
+[┌ ](blue)$directory$git_branch$git_status$jobs
+[└ ](blue)$time$cmd_duration$shell$character"""
+
+[character]
+success_symbol = "[:](green)"
+error_symbol   = "[:](red)"
+vicmd_symbol   = "[>](yellow)"
+
+[directory]
+style = "blue"
+fish_style_pwd_dir_length = 1
+
+[git_branch]
+symbol = ""
+style = "cyan"
+
+[git_status]
+format = '([\[](dimmed yellow)[$all_status$ahead_behind](yellow)[\]](dimmed yellow)) '
+
+[time]
+disabled=false
+format = '[$time](dimmed blue) '
+
+[shell]
+fish_indicator = ""
+zsh_indicator = "z"
+style = "dimmed blue"
+disabled = true
+
+[cmd_duration]
+disabled=false
+
+[jobs]
+disabled=false
+number_threshold=1
+format='([\[](dimmed blue)[$number](dimmed blue)[\]](dimmed blue))'
