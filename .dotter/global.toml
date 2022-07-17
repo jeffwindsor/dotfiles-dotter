@@ -117,7 +117,7 @@ depends = []
 [toolbox.files]
 "aliases" = "~/.config/aliases/toolbox"
 
-[starship.files]
+[topgrade.files]
 "aliases" = "~/.config/aliases/topgrade"
 "toml" = "~/.config/topgrade.toml"
 
